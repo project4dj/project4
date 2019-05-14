@@ -63,7 +63,6 @@
             </div>
         </div>
 
-      <main class="container">
       <div class="row">
           <div class="col-12">
           <!-- import van de navbar -->

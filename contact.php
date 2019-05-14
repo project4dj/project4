@@ -33,7 +33,9 @@
           </form>
         </div>
       </div>
-      <main class="container">
+
+      <br>
+
       <div class="row">
           <div class="col-12">
           <!-- import van de footer -->
