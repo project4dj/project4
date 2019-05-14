@@ -18,11 +18,25 @@
               <?php include("./includes/nav.php"); ?>
           </div>
       </div>
-
+      <div class="row">
+        <div class="col-12">
+          <form action="contactS.php" method="post">
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input type="email" name="email" id="email" class="form-control" placeholder="" aria-describedby="helpId">
+            </div>
+            <div class="form-group">
+              <label for="bericht">Bericht:</label>
+              <textarea class="form-control" name="bericht" id="bericht" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Stuur bericht!</button>
+          </form>
+        </div>
+      </div>
       <main class="container">
       <div class="row">
           <div class="col-12">
-          <!-- import van de navbar -->
+          <!-- import van de footer -->
               <?php include("./includes/footer.php"); ?>
           </div>
       </div>
