@@ -1,7 +1,7 @@
 <div class="row">
           <div class="col-12">
           <!--import van de navbar -->
-              <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-primary text-white">
+              <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-primary">
 <!-- home knop -->
     <a class="navbar-brand" href="./index.php"><img src="./images/hardlopen.png" height="100" width="100"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
