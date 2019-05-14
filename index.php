@@ -18,14 +18,44 @@
               <?php include("./includes/nav.php"); ?>
           </div>
       </div>
+      <div id="nav" class="row">
+          <div class="col-12">
+          <!-- import van de navbar -->
+              <?php include("./includes/carousel.php"); ?>
+          </div>
+      </div>
+      <div class="row">
+            <div class="col-8">
+                <div class="card text-center">
+                    <div class="card-header">
+                    Featured
+                    </div>
+                <div class="card-body">
+                    <h5 class="card-title">Special title treatment</h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            </div>
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="./images/utrmara.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="https://www.utrechtmarathon.com/" class="btn btn-primary">Naar de website</a>
+                </div>
+                </div>
+            </div>
+        </div> 
 
       <main class="container">
-      <div class="row">
+        <div class="row">
           <div class="col-12">
           <!-- import van de navbar -->
               <?php include("./includes/footer.php"); ?>
           </div>
-      </div>
+        </div>
 
 
 
