@@ -11,13 +11,14 @@
     <title>ExerciseMe</title>
   </head>
   <body>
-  <main class="container">
+  <!--<main class="container">-->
       <div id="nav" class="row">
           <div class="col-12">
           <!-- import van de navbar -->
               <?php include("./includes/nav.php"); ?>
           </div>
       </div>
+      <main class="container">
       <div id="nav" class="row">
           <div class="col-12">
           <!-- import van de navbar -->
@@ -51,6 +52,8 @@
                 </div>
             </div>
         </div> 
+
+        </main>
         <div class="row">
           <div class="col-12">
           <!-- import van de footer -->
