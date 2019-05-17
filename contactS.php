@@ -7,7 +7,11 @@
 
     if(empty($_POST['email'])){
         echo '<div class="alert alert-warning" role="alert">U heeft geen email ingevoerd</div>';
-        header("Refresh: 3; url=index.php");
+        header("Refresh: 3; url=contact.php");
+    }
+    else if(empty($_POST['bericht'])){
+        echo '<div class="alert alert-warning" role="alert">U heeft geen bericht ingevoerd</div>';
+        header("Refresh: 3; url=contact.php");
     }else{
         $sql = "INSERT INTO `contact` ( `contactID`,
                                         `email`,
@@ -15,7 +19,6 @@
                                 VALUES( NULL,
                                         '$email',
                                         '$bericht')";
+        $result = mysqli_query($conn, $sql);
     }
-
-    $result = mysqli_query($conn, $sql);
 ?>
