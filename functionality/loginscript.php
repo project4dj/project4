@@ -24,18 +24,18 @@
       switch ($record["userrole"]) {
         case 'user':
           echo '<div class="alert alert-success" role="alert">U bent succesvol ingelogd en word nu doorgestuurd naar de hoofdpagina.</div>';      
-          header("Refresh: 3; url=customerhome.php");
+          header("Refresh: 3; url=../index.php?content=userhome");
         break;
         case 'admin':
           echo '<div class="alert alert-success" role="alert">U bent succesvol ingelogd. U wordt doorgestuurd naar uw administrator homepagina</div>';      
-          header("Refresh: 3; url=overview.php");
+          header("Refresh: 3; url=./index.php?content=home");
         break;
         case 'owner':
         echo '<div class="alert alert-success" role="alert">U bent succesvol ingelogd. U wordt doorgestuurd naar uw administrator homepagina</div>';      
-          header("Refresh: 3; url=owner.php");
+          header("Refresh: 3; url=./index.php?content=home");
         default:
           echo '<div class="alert alert-warning" role="alert">U bent succesvol ingelogd. Maar uw gebruikersrol bestaat niet. Uwordt doorgestuurd naar de standaard homepagina</div>';      
-          header("Refresh: 3; url=index.php");
+          header("Refresh: 3; url=./index.php?content=home");
         break;
       }
 
