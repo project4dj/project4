@@ -9,10 +9,10 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-item nav-link text-white" href="./index.php">Home</a>
-        <a class="nav-item nav-link text-white" href="./tips.php">Tips</a>
-        <a class="nav-item nav-link text-white" href="./recensies.php">Recensies</a>
-        <a class="nav-item nav-link text-white" href="./contact.php">Contact</a>
-        <a class="nav-item nav-link text-white" href="./signup.php">Aanmelden</a>
+        <a class="nav-item nav-link text-white" href="./index.php?content=tips">Tips</a>
+        <a class="nav-item nav-link text-white" href="./index.php?content=recensies">Recensies</a>
+        <a class="nav-item nav-link text-white" href="./index.php?content=contact">Contact</a>
+        <a class="nav-item nav-link text-white" href="./index.php?content=signup">Aanmelden</a>
       </div>
     </div>
   </nav>          

@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,11 +22,8 @@
           </div>
       </div>
       <main class="container">
-      <div id="nav" class="row">
-          <div class="col-12">
-          <!-- import van de navbar -->
-              <?php include("./includes/carousel.php"); ?>
-          </div>
+      <div>
+        <?php include("./functionality/pageloader.php"); ?>
       </div>
       <div class="row">
             <div class="col-12 col-md-8">
