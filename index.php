@@ -33,13 +33,15 @@
                     </div>
                 <div class="card-body">
                     <h5 class="card-title">Over ExerciseMe</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <p class="card-text">Wij hebben deze website gebouwd voor een schoolproject. <br>
+                    De website is bedoelt om mensen te helpen die willen gaan hardlopen of ondersteuning nodig hebben bij het hardlopen.<br>
+                    heb je nog vragen? klik dan snel op de knop hieronder!</p>
                     <a href="./contact.php" class="btn btn-primary">Stel een vraag!</a>
                 </div>
-            </div>
+                </div>
             </div>
             <div class="col-12 col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 20rem height: 15rem; ">
                     <img src="./images/utrmara.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Utrecht Marathon</h5>
