@@ -1,6 +1,7 @@
 <?php
   include("db.php");
   include("./functions.php");
+  session_start();
 
   $email = sanitize($_POST["email"]);
   $password = sanitize($_POST["password"]);
@@ -16,7 +17,7 @@
     $blowfish_password = $record["password"];
 
     if ( password_verify($password, $blowfish_password)) {
-
+      
       $_SESSION["id"] = $record["ID"];
       $_SESSION["email"] = $email;
       $_SESSION["userrole"] = $record["userrole"];
