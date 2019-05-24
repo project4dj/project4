@@ -11,13 +11,6 @@
     <title>ExerciseMe</title>
   </head>
   <body>
-  <!--<main class="container">-->
-      <div class="row">
-          <div class="col-12">
-          <!-- import van de navbar -->
-              <?php include("./includes/nav.php"); ?>
-          </div>
-      </div>
       <main class="container">
       <div class="row">
           <div class="col-12">
@@ -35,12 +28,6 @@
         </div>
       
       </main>
-      <div class="row">
-          <div class="col-12">
-          <!-- import van de footer -->
-              <?php include("./includes/footer.php"); ?>
-          </div>
-      </div>
 
 
 
