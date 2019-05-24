@@ -9,17 +9,19 @@
             <div class="col-12 col-md-8">
                 <div class="card text-center">
                     <div class="card-header bg-primary text-white">
-                    Featured
+                    <br>
                     </div>
                 <div class="card-body">
                     <h5 class="card-title">Over ExerciseMe</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <a href="./contact.php" class="btn btn-primary">Stel een vraag!</a>
+                    <p class="card-text">Wij hebben deze website gebouwd voor een schoolproject. <br>
+                    De website is bedoelt om mensen te helpen die willen gaan hardlopen of ondersteuning nodig hebben bij het hardlopen.<br>
+                    heb je nog vragen? klik dan snel op de knop hieronder!</p>
+                    <a href="./index.php?content=contact" class="btn btn-primary">Stel een vraag!</a>
                 </div>
             </div>
             </div>
             <div class="col-12 col-md-4">
-                <div class="card" style="width: 18rem;">
+                <div class="card" style="width: 22rem;">
                     <img src="./images/utrmara.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Utrecht Marathon</h5>

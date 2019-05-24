@@ -25,6 +25,7 @@
       <div>
         <?php include("./functionality/pageloader.php"); ?>
       </div>
+
         </main>
         <div class="row">
           <div class="col-12">
