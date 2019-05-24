@@ -1,6 +1,6 @@
 <div id="nav" class="row">
           <div class="col-12">
-          <!-- import van de navbar -->
+          <!-- import van de carousel -->
               <?php include("./includes/carousel.php"); ?>
           </div>
       </div>
