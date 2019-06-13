@@ -20,3 +20,8 @@ form{
 .hidden2{
     display: none;
 }
+
+.card{
+    max-height: 40em;
+    overflow: scroll;
+}
