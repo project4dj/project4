@@ -7,6 +7,6 @@
 
   // Uitloggen met alert en doorsturen
   echo '<div class="alert alert-danger" role="alert">U bent succesvol uitgelogd, U wordt doorgestuurd naar de inlogpagina</div>';
-  header("Refresh: 3; url=./index.php?content=home");
+  header("Location: url=./index.php?content=home");
   exit();
 ?>
