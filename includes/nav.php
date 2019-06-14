@@ -14,7 +14,6 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link text-white" href="./index.php">Home</a>
-            <a class="nav-item nav-link text-white" href="./index.php?content=tips">Tips</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=recensies">Recensies</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=contact">Contact</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=logboek">logboek</a>
@@ -28,7 +27,6 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link text-white" href="./index.php">Home</a>
-            <a class="nav-item nav-link text-white" href="./index.php?content=tips">Tips</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=recensies">Recensies</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=contact">Contact</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=signup">Aanmelden</a>
@@ -42,7 +40,6 @@
         echo '<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
           <a class="nav-item nav-link text-white" href="./index.php">Home</a>
-          <a class="nav-item nav-link text-white" href="./index.php?content=tips">Tips</a>
           <a class="nav-item nav-link text-white" href="./index.php?content=recensies">Recensies</a>
           <a class="nav-item nav-link text-white" href="./index.php?content=contact">Contact</a>
           <a class="nav-item nav-link text-white" href="./index.php?content=signup">Aanmelden</a>
