@@ -7,6 +7,8 @@
 footer {
     background-color: #007bff;
     color: white;
+    width: 100%;
+    left: 0;
 }
 
 form{
@@ -39,4 +41,9 @@ thead{
 h4{
     font-size: 26px;
     margin-bottom: 1em;
+}
+
+main{
+    margin-bottom: 70px;
+    min-height: 65vh;
 }

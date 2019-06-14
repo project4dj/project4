@@ -16,8 +16,8 @@
             <a class="nav-item nav-link text-white" href="./index.php">Home</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=recensies">Recensies</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=contact">Contact</a>
-            <a class="nav-item nav-link text-white" href="./index.php?content=logboek">logboek</a>
-            <a class="nav-item nav-link text-white" href="./index.php?content=oefeningen">oefeningen</a>
+            <a class="nav-item nav-link text-white" href="./index.php?content=logboek">Logboek</a>
+            <a class="nav-item nav-link text-white" href="./index.php?content=oefeningen">Oefeningen</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=logout">Afmelden</a>
           </div>
         </div>';
@@ -27,9 +27,12 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link text-white" href="./index.php">Home</a>
+            <a class="nav-item nav-link text-white" href="./index.php?content=overzicht">Overzicht</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=recensies">Recensies</a>
             <a class="nav-item nav-link text-white" href="./index.php?content=contact">Contact</a>
-            <a class="nav-item nav-link text-white" href="./index.php?content=signup">Aanmelden</a>
+            <a class="nav-item nav-link text-white" href="./index.php?content=logboek">Logboek</a>
+            <a class="nav-item nav-link text-white" href="./index.php?content=oefeningen">Oefeningen</a>
+            <a class="nav-item nav-link text-white" href="./index.php?content=logout">Afmelden</a>
           </div>
         </div>';
         break;

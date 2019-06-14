@@ -1,5 +1,5 @@
 <?php
-  $userrole = ['user'];
+  $userrole = ['user', 'admin', 'owner'];
   include("./functionality/security.php"); 
   include("./functionality/db.php");
   $id = $_SESSION['id'];
