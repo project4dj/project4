@@ -1,23 +1,27 @@
 <?php
     $id = $_SESSION['id'];
+    $userrole = ['user', 'admin', 'root'];
     require("./functionality/db.php");
+    require("./functionality/security.php");
     $cal = 0;
+    $date = date("Y-m-d");
     if(isset($_POST['pushups'])){
         $pushup = $_POST['amt_pushups'];
         $addition = 2*$pushup;
-        $sql = "INSERT INTO `oefening` (`OefeningID`, `naam`, `hoeveelheid`, `kalorie`, `fk_userID`) VALUES (NULL, 'push-ups', ".$pushup.", ".$addition.", ".$id.");";
+        $sql = "INSERT INTO `oefening` (`OefeningID`, `naam`, `hoeveelheid`, `kalorie`, `datum`, `fk_userID`) VALUES (NULL, 'push-ups', ".$pushup.", ".$addition.", '".$date."', ".$id.");";
         $result = mysqli_query($conn ,$sql);
+        echo $sql;
     }
     if(isset($_POST['situps'])){
         $situp = $_POST['amt_situps'];
         $addition = 2*$situp;
-        $sql = "INSERT INTO `oefening` (`OefeningID`, `naam`, `hoeveelheid`, `kalorie`, `fk_userID`) VALUES (NULL, 'sit-ups', ".$situp.", ".$addition.", ".$id.");";
+        $sql = "INSERT INTO `oefening` (`OefeningID`, `naam`, `hoeveelheid`, `kalorie`, `datum`, `fk_userID`) VALUES (NULL, 'sit-ups', ".$situp.", ".$addition.", '".$date."', ".$id.");";
         $result = mysqli_query($conn ,$sql);
     }
     if(isset($_POST['squats'])){
         $squats = $_POST['amt_squats'];
         $addition = 2*$squats;
-        $sql = "INSERT INTO `oefening` (`OefeningID`, `naam`, `hoeveelheid`, `kalorie`, `fk_userID`) VALUES (NULL, 'squats', ".$squats.", ".$addition.", ".$id.");";
+        $sql = "INSERT INTO `oefening` (`OefeningID`, `naam`, `hoeveelheid`, `kalorie`, `datum`, `fk_userID`) VALUES (NULL, 'squats', ".$squats.", ".$addition.", '".$date."', ".$id.");";
         $result = mysqli_query($conn ,$sql);
     }
 ?>
