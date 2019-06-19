@@ -16,16 +16,48 @@
           <div class="col-12">
             <div class="card text-center">
               <div class="card-header bg-primary text-white">
-                    Featured
+                    In De Wolken.
               </div>
+              <img src="./images/cloudflow_rust_ pacific.webp" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Special title treatment</h5>
-                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">On Cloudflare</h5>
+                <p class="card-text">On is een relatief nieuw merk uit Zwitserland. Hun Unieke open en zichtbare dempers laten het lijken
+                alsof je op de wolken loopt. Deze Schoen is zeer geschikt voor hardlopen door de goede demping.<br>
+                Heb je brede voeten? geen probleem, de On past zicht goed aan naar jouw voet!</p>
               </div>
             </div>
           </div>
-        </div>  
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="card text-center">
+              <div class="card-header bg-primary text-white">
+                    Featured
+              </div>
+              <img src="./images/utrmara.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12">
+            <div class="card text-center">
+              <div class="card-header bg-primary text-white">
+                    Featured
+              </div>
+              <img src="./images/utrmara.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Special title treatment</h5>
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
 
 
