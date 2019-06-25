@@ -1,4 +1,7 @@
 <?php
+    // if(isset($_POST['edit'])){
+    //     header("Location: ./index.php?func=edit");
+    // }
     $userrole = ['admin'];
     include("./functionality/security.php");
     include("./functionality/db.php");
@@ -13,11 +16,16 @@
                     <td> " . $record["username"] . "</td>
                     <td> " . $record["email"] . "</td>
                     <td>
-                    <a href='./update.php?id=" . $record["ID"] . "'>
-                    <img src='./image/bd_edit.png' alt='pencil'></a></td>
+                    <form action='./index.php?func=edit' method='POST'>
+                    <input type='hidden' name='ID' value='" . $record["ID"] . "'>
+                    <button type='submit' name='edit'>Bewerk</button>
+                    </form>
+                    </td>
                     <td>
-                    <a href='./delete.php?id=" . $record["ID"] . "'>
-                    <img src='./image/b_minus.png' alt='min'></a></td>
+                    <form action='./index.php?func=delete' method='POST'>
+                    <input type='hidden' name='id' value='" . $record["ID"] . "'>
+                    <button type='submit' name='delete'>Verwijder</button>
+                    </form>
                     </tr>";
     }
 
