@@ -14,10 +14,12 @@
     <script type="text/javascript">
     function showlogin(){
         document.getElementById('hide').style.cssText = 'display: block;';
+        document.getElementById('hide2').style.cssText = 'display: none;';
     }
 
     function showregister(){
         document.getElementById('hide2').style.cssText = 'display: block;';
+        document.getElementById('hide').style.cssText = 'display: none;';
     }
     </script>
     <!-- Bootstrap CSS -->
